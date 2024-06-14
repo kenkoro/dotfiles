@@ -1,0 +1,30 @@
+[user]
+	name = kenkoro
+	email = kenjirokoro.business@gmail.com
+	username = aurora
+	signingkey = 1A11C1D503E141F2
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
+[web]
+	browser = google-chrome
+[rerere]
+	enabled = 1
+	autoupdate = 1
+[color]
+	ui = auto
+[diff]
+	tool = vimdiff
+[alias]
+	ci = commit
+	ph = push
+	cl = clone
+	br = branch
+	co = checkout
+	sw = switch
+	st = status
+	last = log HEAD -1
+	history = log --graph --all --pretty=oneline --abbrev-commit
+[commit]
+	gpgsign = true
