@@ -39,7 +39,7 @@ get my butt off).
 
 ## Tmux
 
-I really the standard tmux config, but w/ prefix `ctrl-b`, and some keybinds in it.
+I really like the standard tmux config, but w/ prefix `ctrl-b`, and some keybinds in it.
 
 ## Neovim
 
