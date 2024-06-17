@@ -46,7 +46,7 @@ get_current_time() {
 
 # timer corner
 declare -A timer_options
-timer_options["work"]="50"
+timer_options["work"]="1"
 
 notify() {
   session_type=$1
@@ -56,8 +56,8 @@ notify() {
   sound_file="string:sound-file:/usr/share/sounds/freedesktop/stereo/complete.oga"
 
   notify-send -u $urgency -t $expire_time -a $app_name -h $sound_file \
-    "$session_type session done" \
-    "you can relax now"
+    "Session '$session_type' done" \
+    "You can relax now"
 }
 
 pomodoro_timer() {
