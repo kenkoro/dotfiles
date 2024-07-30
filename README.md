@@ -15,7 +15,7 @@ I like to use `JetBrains Mono`.
 Create your folder and place some configs in it, then
 
 ```sh
-stow <directory> --adopt
+stow <directory> -t <target> --adopt
 ```
 
 Which does this

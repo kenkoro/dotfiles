@@ -7,6 +7,8 @@ autoload -U colors && colors
 # unstaged (*) and staged (+) changes will be shown next to the branch
 # name.
 export GIT_PS1_SHOWDIRTYSTATE=1
+# For gpg signature
+export GPG_TTY=$(tty)
 
 # Zsh history
 HISTFILE=~/.zsh_history
@@ -22,8 +24,8 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "zap-zsh/zap-prompt"
 
 # Bindkeys
-#
-bindkey '^I' autosuggest-accept
+# Ctrl-Y
+bindkey '^Y' autosuggest-accept
 
 if command -v bat &>/dev/null; then
   alias cat="bat -pp --theme \"Visual Studio Dark+\""
