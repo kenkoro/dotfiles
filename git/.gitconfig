@@ -2,7 +2,7 @@
 	name = kenkoro
 	email = frogharvard@gmail.com
 	username = aurora
-	signingkey = 1A11C1D503E141F2
+	signingkey = 449AB49D42530C2F
 [core]
 	editor = nvim
 [init]
