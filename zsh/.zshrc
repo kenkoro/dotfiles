@@ -9,6 +9,8 @@ autoload -U colors && colors
 export GIT_PS1_SHOWDIRTYSTATE=1
 # For gpg signature
 export GPG_TTY=$(tty)
+# Java environment
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk@21/21.0.4/libexec/openjdk.jdk/Contents/Home
 
 # Zsh history
 HISTFILE=~/.zsh_history
@@ -50,3 +52,5 @@ PROMPT='%B%{$fg[yellow]%}$(does_branch_exist)~%b '
 alias dotfiles="cd ~/Dev/dotfiles"
 alias dev="cd ~/Dev"
 alias ll="ls -l"
+alias taurus="dev; cd taurus"
+export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
