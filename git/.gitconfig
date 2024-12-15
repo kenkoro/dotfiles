@@ -5,6 +5,7 @@
 	signingkey = 449AB49D42530C2F
 [core]
 	editor = lvim
+  sshCommand = ssh -i ~/.ssh/github
 [init]
 	defaultBranch = main
 [web]

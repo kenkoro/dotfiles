@@ -55,3 +55,5 @@ alias ll="ls -l"
 alias taurus="dev; cd taurus"
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
 source "$HOME/.cargo/env"
+
+eval "$(rbenv init -)"
