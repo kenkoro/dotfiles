@@ -1,13 +1,7 @@
 [user]
-	name = kenkoro
-	email = frogharvard@gmail.com
-	username = aurora
-	signingkey = 449AB49D42530C2F
+	username = kenkoro
 [core]
 	editor = lvim
-  sshCommand = ssh -i ~/.ssh/github
-[init]
-	defaultBranch = main
 [web]
 	browser = google-chrome
 [rerere]
@@ -29,3 +23,11 @@
 	history = log --graph --all --pretty=oneline --abbrev-commit
 [commit]
 	gpgsign = true
+[includeIf "gitdir:~/Dev/home.gh/"]
+  path = ~/Dev/dotfiles/git/.gitconfig.home.gh
+[includeIf "gitdir:~/Dev/home.gt/"]
+  path = ~/Dev/dotfiles/git/.gitconfig.home.gt
+[includeIf "gitdir:~/Dev/wk/"]
+  path = ~/Dev/dotfiles/git/.gitconfig.wk
+[includeIf "gitdir:~/Dev/dotfiles/.git"]
+  path = ~/Dev/dotfiles/git/.gitconfig.home.gh

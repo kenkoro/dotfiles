@@ -1,0 +1,8 @@
+[user]
+	name = Lev Krasovsky
+	email = lev.krasovsky@touchlane.com
+	signingkey = 0242157E5468B4CF
+[core]
+  sshCommand = ssh -i ~/.ssh/github-corp
+[init]
+  defaultBranch = develop

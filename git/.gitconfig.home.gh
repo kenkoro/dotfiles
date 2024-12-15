@@ -1,0 +1,8 @@
+[user]
+	name = kenkoro
+	email = frogharvard@gmail.com
+	signingkey = 449AB49D42530C2F
+[core]
+  sshCommand = ssh -i ~/.ssh/github
+[init]
+  defaultBranch = develop

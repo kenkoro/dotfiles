@@ -1,0 +1,8 @@
+[user]
+	name = kenkoro
+	email = frogharvard@gmail.com
+	signingkey = B546F4424B6BAF45
+[core]
+  sshCommand = ssh -i ~/.ssh/gitlab
+[init]
+  defaultBranch = develop
